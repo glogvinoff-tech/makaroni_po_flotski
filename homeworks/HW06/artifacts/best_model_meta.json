@@ -1,9 +1,12 @@
 {
   "model_name": "RandomForest (tuned)",
+  "simple_model_name": "RandomForest",
   "model_type": "RandomForestClassifier",
   "test_metrics": {
     "accuracy": 0.97024,
-    "f1_score": 0.5674418604651162,
+    "f1": 0.5674418604651162,
+    "f1_macro": 0.7760158763800312,
+    "f1_weighted": 0.9640995809714649,
     "roc_auc": 0.9016437919189958
   },
   "random_state": 42,
