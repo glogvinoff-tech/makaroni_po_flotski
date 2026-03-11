@@ -1,0 +1,19 @@
+{
+  "hidden_sizes": [
+    256,
+    256
+  ],
+  "dropout_p": 0.3,
+  "use_batchnorm": false,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "momentum": 0.0,
+  "weight_decay": 0.0,
+  "dataset": "EMNIST(balanced)",
+  "seed": 42,
+  "best_val_accuracy": 0.854299645390071,
+  "best_val_loss": 0.43173931507354085,
+  "epochs_trained": 28,
+  "test_loss": 0.440798880546651,
+  "test_accuracy": 0.8514361700605839
+}

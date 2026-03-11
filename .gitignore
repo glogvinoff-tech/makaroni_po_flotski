@@ -45,6 +45,9 @@ logs/
 # Кеши Jupyter Notebook
 .ipynb_checkpoints
 
+# Datasets cache (torchvision) – do not commit large downloaded files
+homeworks/HW08-09/data/
+
 # Файлы окружения и конфигурации с потенциальными секретами
 .env
 *.env
