@@ -1,8 +1,8 @@
 experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
-E1,EMNIST(balanced),42,"(256, 256), dropout=0.0, bn=False",Adam,0.001,0.0,0.0,20,0.8453457446808511,0.49541358026206916
-E2,EMNIST(balanced),42,"(256, 256), dropout=0.3, bn=False",Adam,0.001,0.0,0.0,20,0.8545212765957447,0.43231530341696234
-E3,EMNIST(balanced),42,"(256, 256), dropout=0.0, bn=True",Adam,0.001,0.0,0.0,20,0.8488475177304965,0.5027213809338021
-E4,EMNIST(balanced),42,"(256, 256), dropout=0.3, bn=False",Adam,0.001,0.0,0.0,28,0.854299645390071,0.43173931507354085
-O1,EMNIST(balanced),42,"(256, 256), dropout=0.3, bn=False",Adam,0.1,0.0,0.0,6,0.021808510638297873,3.8693632146145434
-O2,EMNIST(balanced),42,"(256, 256), dropout=0.3, bn=False",Adam,1e-05,0.0,0.0,6,0.5242464539007092,2.0324085249122996
-O3,EMNIST(balanced),42,"(256, 256), dropout=0.3, bn=False",SGD,0.01,0.9,0.0001,15,0.8416666666666667,0.4848020465661448
+E1,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.0 | bn=False",Adam,0.001,0.0,0.0,20,0.46041666706403095,2.650713055928548
+E2,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.3 | bn=False",Adam,0.001,0.0,0.0,20,0.47791666666666666,1.5534831555684407
+E3,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.0 | bn=True",Adam,0.001,0.0,0.0,20,0.4745833337306976,2.193531131744385
+E4,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.3 | bn=False",Adam,0.001,0.0,0.0,14,0.47166666626930237,1.5136073112487793
+O1,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.3 | bn=False",Adam,0.1,0.0,0.0,6,0.11,2.302455441157023
+O2,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.3 | bn=False",Adam,1e-05,0.0,0.0,6,0.3250000003973643,1.9676800680160522
+O3,CIFAR10,42,"hidden=(256, 256) | act=ReLU | dropout=0.3 | bn=False",SGD,0.01,0.9,0.0001,15,0.4745833337306976,1.5069578409194946
