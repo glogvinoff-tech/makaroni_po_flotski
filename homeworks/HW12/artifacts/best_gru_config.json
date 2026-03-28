@@ -9,7 +9,7 @@
   "patience": 8,
   "seed": 42,
   "device_used": "cpu",
-  "best_epoch": 18,
+  "best_epoch": 15,
   "split_summary": {
     "train_rows": 3024,
     "val_rows": 648,
